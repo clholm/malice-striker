@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name malice_striker-rescue)(type Legacy)(uri ${KIPRJMOD}/malice_striker-rescue.lib)(options "")(descr ""))
+)
