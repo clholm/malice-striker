@@ -956,7 +956,7 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1054lfh
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 1750 3550 1750
+	3050 1750 3450 1750
 Connection ~ 3050 1750
 $Comp
 L power:Earth #PWR03
@@ -1451,4 +1451,90 @@ Wire Wire Line
 Connection ~ 7850 1750
 Wire Wire Line
 	7850 1750 8300 1750
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 623FF7F6
+P 4400 3100
+F 0 "J4" H 4428 3126 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4428 3035 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 4400 3100 50  0001 C CNN
+F 3 "~" H 4400 3100 50  0001 C CNN
+	1    4400 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 3100 0    50   Input ~ 0
+9VOUT
+Text GLabel 3450 1950 3    50   Input ~ 0
+9VOUT
+Wire Wire Line
+	3450 1750 3450 1950
+Connection ~ 3450 1750
+Wire Wire Line
+	3450 1750 3550 1750
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 6240FC70
+P 4400 3300
+F 0 "J5" H 4428 3326 50  0000 L CNN
+F 1 "GNDOUT" H 4428 3235 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 4400 3300 50  0001 C CNN
+F 3 "~" H 4400 3300 50  0001 C CNN
+	1    4400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0113
+U 1 1 62417755
+P 4200 3300
+F 0 "#PWR0113" H 4200 3050 50  0001 C CNN
+F 1 "Earth" H 4200 3150 50  0001 C CNN
+F 2 "" H 4200 3300 50  0001 C CNN
+F 3 "~" H 4200 3300 50  0001 C CNN
+	1    4200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 624195D9
+P 4400 3500
+F 0 "J6" H 4428 3526 50  0000 L CNN
+F 1 "INPUTGND" H 4428 3435 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 4400 3500 50  0001 C CNN
+F 3 "~" H 4400 3500 50  0001 C CNN
+	1    4400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0114
+U 1 1 624195DF
+P 4200 3500
+F 0 "#PWR0114" H 4200 3250 50  0001 C CNN
+F 1 "Earth" H 4200 3350 50  0001 C CNN
+F 2 "" H 4200 3500 50  0001 C CNN
+F 3 "~" H 4200 3500 50  0001 C CNN
+	1    4200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 62421F90
+P 4400 3700
+F 0 "J7" H 4428 3726 50  0000 L CNN
+F 1 "OUTPUTGND" H 4428 3635 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 4400 3700 50  0001 C CNN
+F 3 "~" H 4400 3700 50  0001 C CNN
+	1    4400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0115
+U 1 1 62421F96
+P 4200 3700
+F 0 "#PWR0115" H 4200 3450 50  0001 C CNN
+F 1 "Earth" H 4200 3550 50  0001 C CNN
+F 2 "" H 4200 3700 50  0001 C CNN
+F 3 "~" H 4200 3700 50  0001 C CNN
+	1    4200 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
