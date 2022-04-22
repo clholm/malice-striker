@@ -1,0 +1,23 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C3,4.7uF-bi,CP_Radial_D5.0mm_P2.00mm,-1.5,-63.25,90,bottom
+C9,10uF,CP_Radial_D5.0mm_P2.00mm,-34.5,-58.5,0,bottom
+C12,4.7uF-bi,CP_Radial_D5.0mm_P2.00mm,-52,-36,-90,bottom
+C13,100uF,CP_Radial_D6.3mm_P2.50mm,-42,-66,-90,bottom
+C20,4.7uF-bi,CP_Radial_D5.0mm_P2.00mm,-5,-37.5,-90,bottom
+C21,100uF,CP_Radial_D6.3mm_P2.50mm,-3,-55,180,bottom
+C24,4.7uF-bi,CP_Radial_D5.0mm_P2.00mm,-14.5,-37.5,90,bottom
+C25,4.7uF-bi,CP_Radial_D5.0mm_P2.00mm,-52,-67,-90,bottom
+J1,Conn_01x02_Female,PinSocket_1x02_P2.54mm_Vertical,-27.4,-16,90,bottom
+J2,Conn_01x02_Female,PinSocket_1x02_P2.54mm_Vertical,-27.4,-27,90,bottom
+J3,Conn_01x02_Female,PinSocket_1x02_P2.54mm_Vertical,-48.5,-75,90,bottom
+J4,Conn_01x01_Female,PinSocket_1x01_P2.54mm_Vertical,-53.25,-23.75,180,bottom
+J5,GNDOUT,PinSocket_1x01_P2.54mm_Vertical,-41,-79,-90,bottom
+J6,INPUTGND,PinSocket_1x01_P2.54mm_Vertical,-41,-82.75,-90,bottom
+J7,OUTPUTGND,PinSocket_1x01_P2.54mm_Vertical,-41,-86.5,-90,bottom
+R3,1k,R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal,-16,-65.5,0,bottom
+R4,2.2k,R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal,-1,-72,-90,bottom
+R6,1k,R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal,-10.5,-66.5,-90,bottom
+R10,1k,R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal,-16,-70.5,0,bottom
+R11,1k,R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal,-5.5,-66.5,-90,bottom
+RV2,100k-TRIM,Potentiometer_Vishay_T73YP_Vertical,-50.5,-87.5,180,bottom
+U2,LT1054,DIP-8_W7.62mm,-41,-61.5,0,bottom
